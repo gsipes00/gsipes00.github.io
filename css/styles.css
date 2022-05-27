@@ -278,6 +278,9 @@ Navbar For Bigger Size Screen
   z-index: 2;
   box-shadow: var(--light-shadow);
 }
+.navbar-fixed-links a {
+  color: var(--metallic-seaweed);
+}
 
 /* My alternate nav bar color change */
 /* .navbar-fixed {
@@ -367,7 +370,7 @@ Hero
   margin-left: 0;
 }
 .hero-img {
-  display: none;
+  /* display: none; */
 }
 .hero {
   background: var(--onyx);

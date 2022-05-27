@@ -1,4 +1,5 @@
 const navbar = document.querySelector("#nav");
+const navbarLinks = document.querySelector("#nav-links");
 const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
 const sidebar = document.querySelector("#sidebar");
@@ -9,6 +10,14 @@ window.addEventListener("scroll", function () {
     navbar.classList.add("navbar-fixed");
   } else {
     navbar.classList.remove("navbar-fixed");
+  }
+});
+// change navbar links to green once navbar fixed
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 70) {
+    navbarLinks.classList.add("navbar-fixed-links");
+  } else {
+    navbarLinks.classList.remove("navbar-fixed-links");
   }
 });
 // show sidebar
