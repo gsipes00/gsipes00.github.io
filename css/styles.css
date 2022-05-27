@@ -189,7 +189,7 @@ p {
   text-align: center;
 }
 .bg-grey {
-  background: var(--clr-grey-10);
+  background: var(--onyx);
 }
 /*
 =============== 
@@ -396,8 +396,8 @@ Hero
   margin-top: 1.25;
 }
 .hero-photo {
-  max-width: 22rem;
-  max-height: 22rem;
+  max-width: 20rem;
+  max-height: 20rem;
   -o-object-fit: cover;
   object-fit: cover;
   border-radius: var(--radius);
@@ -489,12 +489,24 @@ Services
 /* be careful using grid as not all phone browsers support it. John contrasted
 how he used grid for the about section but a simple margin for the services section */
 .service {
-  background: var(--clr-white);
+  background: var(--laurel-green);
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   text-align: center;
   transition: var(--transition);
+}
+.service p {
+  color: var(--onyx);
+}
+.service i {
+  color: var(--onyx);
+}
+.service h4 {
+  color: var(--onyx);
+}
+.service .underline {
+  color: var(--onyx);
 }
 .service-icon {
   font-size: 2rem;
@@ -504,20 +516,21 @@ how he used grid for the about section but a simple margin for the services sect
   width: 3rem;
   height: 0.12rem;
   transition: var(--transition);
+  color: var(--onyx);
 }
 .service p {
   transition: var(--transition);
 }
 .service:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-white);
+  background: var(--blizzard-blue);
+  /* color: var(--cultured); */
 }
-.service:hover p {
-  color: var(--clr-white);
+/* .service:hover p {
+  color: var(--cultured);
 }
 .service:hover .underline {
-  background: var(--clr-white);
-}
+  background: var(--cultured);
+} */
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
