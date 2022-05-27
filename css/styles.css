@@ -148,6 +148,7 @@ p {
 }
 
 .btn {
+  /* margin-top: 5rem; */
   text-transform: uppercase;
   background: var(--metallic-seaweed);
   color: var(--cultured);
@@ -369,9 +370,9 @@ Hero
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
-.hero-img {
-  /* display: none; */
-}
+/* .hero-img {
+  display: none;
+} */
 .hero {
   background: var(--onyx);
 }
@@ -390,6 +391,7 @@ Hero
 .hero-btn {
   margin-top: 1.25;
 }
+
 @media screen and (min-width: 992px) {
   .hero-img {
     display: block;
@@ -417,6 +419,9 @@ Hero
     object-fit: cover;
     border-radius: var(--radius);
     position: relative;
+  }
+  .hero-btn {
+    margin-top: 5.25;
   }
 }
 
