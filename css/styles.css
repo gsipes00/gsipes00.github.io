@@ -225,7 +225,7 @@ Navbar For Small Screen
 .nav-btn {
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: var(--metallic-seaweed);
   font-size: 2rem;
   cursor: pointer;
   justify-self: end;
@@ -367,6 +367,7 @@ Hero
 */
 
 .hero .underline {
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
@@ -385,11 +386,23 @@ Hero
 .hero-info h4 {
   color: var(--laurel-green);
 }
+.about-info p {
+  margin-right: 1rem;
+}
 .hero-icons {
   justify-items: start;
 }
 .hero-btn {
   margin-top: 1.25;
+}
+.hero-photo {
+  max-width: 22rem;
+  max-height: 22rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: var(--radius);
+  position: relative;
+  margin-top: 3rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -413,7 +426,7 @@ Hero
     border-radius: var(--radius);
   }
   .hero-photo {
-    max-width: 25rem;
+    max-width: 23rem;
     max-height: 25rem;
     -o-object-fit: cover;
     object-fit: cover;
