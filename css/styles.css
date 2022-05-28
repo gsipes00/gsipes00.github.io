@@ -939,24 +939,40 @@ Footer
 ===============
 */
 .footer {
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   background: #222;
   display: grid;
   place-items: center;
+  /* border: 2px solid green; */
 }
 .footer .social-icons {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  border: 2px solid blue;
+  width: 200px;
+  display: grid;
+  place-content: center;
+  justify-items: right;
 }
 .footer .social-icon {
-  color: var(--clr-primary-5);
+  margin: 0;
+  padding: 0;
+  color: var(--cultured);
+  /* justify-self: center; */
+  /* text-align: center; */
+  border: 2px solid red;
 }
 .foot .social-icon:hover {
-  color: var(--clr-primary-5);
+  color: var(--laurel-green);
 }
 .footer p {
+  /* display: block; */
   font-size: 1.25rem;
   text-transform: capitalize;
+  border: 2px solid brown;
 }
+/* .footer li {
+  border: 2px solid purple;
+} */
 
 /*
 =============== 
@@ -964,9 +980,9 @@ Single Page
 ===============
 */
 .single-page {
-  background: var(--clr-primary-10);
+  background: var(--onyx);
   min-height: calc(100vh - 5rem - 210px);
-  border: 2px solid var(--clr-primary-4);
+  /* border: 2px solid var(--clr-primary-4); */
 }
 .page-info {
   max-width: 700px;
@@ -988,7 +1004,6 @@ Products Page
   height: 40vh;
   background: var(--clr-primary-10);
   display: grid;
-  place-items: center;
 }
 .projects-hero .section-title {
   margin-bottom: 0;
